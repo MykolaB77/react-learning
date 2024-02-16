@@ -1,16 +1,6 @@
-.App {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-}
+/* g */
 
-.button-container {
-  display: flex;
-  flex-direction: column;
-  width: 200px;
-}
-
-.car-card {
+.user-card {
   display: flex;
   flex-direction: column;
   width: 400px;
@@ -18,4 +8,21 @@
   border: 1px solid black;
   padding: 30px;
   margin: 20px;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+.avatar-foto {
+  height: 200px;
+  width: 200px;
 }
